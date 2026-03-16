@@ -3,6 +3,7 @@ import './App.css'
 import Jsx from './Jsx'
 import Components from './Components'
 import Props from './Props'
+import State from './State'
 
 function App() {
 
@@ -17,7 +18,8 @@ function App() {
       <Props />
       <Props title="gautam is bro"/>
       <Props number={18}/>
-
+      <h1>State</h1>
+      <State/>
     </>
   )
 }
