@@ -15,6 +15,9 @@ function App() {
       <Components />
       <h1>this is a Props</h1>
       <Props />
+      <Props title="gautam is bro"/>
+      <Props number={18}/>
+
     </>
   )
 }
