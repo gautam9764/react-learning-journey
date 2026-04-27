@@ -4,6 +4,7 @@ import Jsx from './Jsx'
 import Components from './Components'
 import Props from './Props'
 import State from './State'
+import State2 from './State2'
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
       <Props number={18}/>
       <h1>State</h1>
       <State/>
+      <h1>this is a State 2</h1>
+      <State2/>
     </>
   )
 }
