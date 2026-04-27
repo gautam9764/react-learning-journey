@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import CountApp from './CountApp';
 
 function App() {
 
@@ -27,6 +28,8 @@ function App() {
         <button onClick={decrement}>decrement</button>
         <button onClick={restart}>restrt</button>
       </div>
+
+      <CountApp/>
     </>
   )
 }
