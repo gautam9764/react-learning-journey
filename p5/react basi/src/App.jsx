@@ -5,6 +5,7 @@ import Components from './Components'
 import Props from './Props'
 import State from './State'
 import State2 from './State2'
+import DataFlow from './DataFlow'
 
 function App() {
 
@@ -23,6 +24,8 @@ function App() {
       <State/>
       <h1>this is a State 2</h1>
       <State2/>
+      <h1>this is a DataFlow</h1>
+      <DataFlow/>
     </>
   )
 }
