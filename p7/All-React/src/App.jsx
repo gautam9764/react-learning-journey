@@ -3,6 +3,7 @@ import './App.css'
 import Header1 from './header1'  // yes wokaeng Header 
 import Header2 from './Header2'
 import ExportDefault1 from './ExportsDefault1'
+import ExportDefault2 from './ExportDefault2'
 
 function App() {
 
@@ -20,6 +21,9 @@ function App() {
 
       <h1>Export Default</h1>
       <ExportDefault1/>
+
+      <h1>Export Default</h1>
+      <ExportDefault2/>
     </>
   )
 }
