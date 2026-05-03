@@ -5,6 +5,7 @@ import Header2 from './Header2'
 import ExportDefault1 from './ExportsDefault1'
 import ExportDefault2 from './ExportDefault2'
 import ExportName1 , {Card} from './ExportName1'
+import ExportName2 , {Card2} from './ExportName2'
 
 function App() {
 
@@ -29,6 +30,10 @@ function App() {
       <h1>Export Name 1 Card</h1>
       <ExportName1/>
       <Card/>
+
+      <h1>Export Name 2 Card</h1>
+      <ExportName2/>
+      <Card2/>
     </>
   )
 }
