@@ -2,6 +2,10 @@ import './App.css'
 // import header1 from './header1'  not a wokeng header 
 import Header1 from './header1'  // yes wokaeng Header 
 import Header2 from './Header2'
+import ExportDefault1 from './ExportsDefault1'
+import ExportDefault2 from './ExportDefault2'
+import ExportName1 , {Card} from './ExportName1'
+import ExportName2 , {Card2} from './ExportName2'
 
 function App() {
 
@@ -14,7 +18,22 @@ function App() {
       {/* <header1/>    */}
       <Header1/>
 
+      <h1>Header</h1>
+      <Header2/>
 
+      <h1>Export Default</h1>
+      <ExportDefault1/>
+
+      <h1>Export Default</h1>
+      <ExportDefault2/>
+
+      <h1>Export Name 1 Card</h1>
+      <ExportName1/>
+      <Card/>
+
+      <h1>Export Name 2 Card</h1>
+      <ExportName2/>
+      <Card2/>
     </>
   )
 }
