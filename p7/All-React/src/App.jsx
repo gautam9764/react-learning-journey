@@ -4,6 +4,7 @@ import Header1 from './header1'  // yes wokaeng Header
 import Header2 from './Header2'
 import ExportDefault1 from './ExportsDefault1'
 import ExportDefault2 from './ExportDefault2'
+import ExportName1 , {Card} from './ExportName1'
 
 function App() {
 
@@ -24,6 +25,10 @@ function App() {
 
       <h1>Export Default</h1>
       <ExportDefault2/>
+
+      <h1>Export Name 1 Card</h1>
+      <ExportName1/>
+      <Card/>
     </>
   )
 }
