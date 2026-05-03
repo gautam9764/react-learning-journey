@@ -2,6 +2,7 @@ import './App.css'
 // import header1 from './header1'  not a wokeng header 
 import Header1 from './header1'  // yes wokaeng Header 
 import Header2 from './Header2'
+import ExportDefault1 from './ExportsDefault1'
 
 function App() {
 
@@ -16,6 +17,9 @@ function App() {
 
       <h1>Header</h1>
       <Header2/>
+
+      <h1>Export Default</h1>
+      <ExportDefault1/>
     </>
   )
 }
