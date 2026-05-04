@@ -8,6 +8,7 @@ import ExportName1 , {Card} from './ExportName1'
 import ExportName2 , {Card2} from './ExportName2'
 import Css from './Css'
 import Img2 from './Img2'
+import Img1 from './Img1'
 
 function App() {
 
@@ -42,6 +43,9 @@ function App() {
 
       <h1>img fil add 1</h1>
       <Img2/>
+
+      <h1>img fil add 2</h1>
+      <Img1/>
     </>
   )
 }
