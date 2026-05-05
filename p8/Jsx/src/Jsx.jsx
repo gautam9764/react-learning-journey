@@ -1,20 +1,20 @@
-import { useState } from "react"
+function  Jsx(){
+ 
+    let name = "Gautam"; 
+ 
+    function FuncReturn (){
+        return "function is a return";
+    } 
 
-function Jsx (Props){
-
-    const [count , setCount] = useState(0);
-
-    function increment (){
-        setCount(count + 1);
-    }
-
-    return (
-        <>
-            <h1> {Props.name}</h1>
-            <h1>{count}</h1>
-            <button onClick={increment}>Increment</button>
-        </>
-    )
-}
+    let age = 18;
+ 
+    return(
+        <> 
+            <h2>Variables {name}</h2>
+            <h2>Function calls {FuncReturn()}</h2>
+            <h2>Ternary expressions {age >= 18 ? "yes" : "not" }</h2>
+        </> 
+    ) 
+} 
 
 export default Jsx
