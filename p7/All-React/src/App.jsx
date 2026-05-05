@@ -10,12 +10,15 @@ import Css from './Css'
 import Img1 from './Img1'
 import Img2 from './Img2'
 import { Utilities } from './Utilities'
+import Data from "./json.json"
 
 function App() {
 
   let Sum = Utilities(12,13);
 
   console.log(Sum);
+
+  console.log(Data);
 
   return (
     <>
@@ -54,6 +57,8 @@ function App() {
 
       <h1> Modules / Functions / Utilities:</h1>
       <h1>{Sum}</h1>
+
+      <h1>json </h1>
     </>
   )
 }
