@@ -1,5 +1,6 @@
 import './App.css'
 import Inline from './Inline'
+import Internal from './Internal'
 import Jsx from './Jsx'
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
 
       <h1>Inline Style </h1>
       <Inline/>
+
+      <h1>Internal Style</h1>
+      <Internal/>
     </>
   )
 }
