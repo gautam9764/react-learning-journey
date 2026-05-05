@@ -11,6 +11,8 @@ import Img1 from './Img1'
 import Img2 from './Img2'
 import { Utilities } from './Utilities'
 import Data from "./json.json"
+// import axios from 'axios'
+// import {BrowserRouter } from './react-router-dom'
 
 function App() {
 
