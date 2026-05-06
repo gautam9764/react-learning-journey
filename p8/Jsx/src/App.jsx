@@ -2,8 +2,9 @@ import './App.css'
 import Inline from './Inline'
 import Internal from './Internal'
 import Jsx from './Jsx'
-import ShortCircuit from './ShortCircuit'
 import Ternary from './Ternary'
+import ShortCircuit from './ShortCircuit'
+import ArrMep from './ArrMep'
 
 function App() {
 
@@ -26,6 +27,9 @@ function App() {
 
       <h1>Short-circuit rendering</h1>
       <ShortCircuit/>
+
+      <h1>JSX with Loops (Arrays)</h1>
+      <ArrMep/>
     </>
   )
 }
