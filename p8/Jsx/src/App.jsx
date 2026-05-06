@@ -5,8 +5,11 @@ import Jsx from './Jsx'
 import Ternary from './Ternary'
 import ShortCircuit from './ShortCircuit'
 import ArrMep from './ArrMep'
+import Header from './Header'
 
 function App() {
+
+  let apply = <p>hello how {2+2} are you</p>
 
   return (
     <>
@@ -30,6 +33,10 @@ function App() {
 
       <h1>JSX with Loops (Arrays)</h1>
       <ArrMep/>
+
+      <h1>Props</h1>
+      <h1>{apply}</h1>
+      <Header name={apply}/>
     </>
   )
 }
