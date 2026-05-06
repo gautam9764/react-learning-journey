@@ -2,6 +2,7 @@ import './App.css'
 import Inline from './Inline'
 import Internal from './Internal'
 import Jsx from './Jsx'
+import Ternary from './Ternary'
 
 function App() {
 
@@ -18,6 +19,9 @@ function App() {
 
       <h1>Internal Style</h1>
       <Internal/>
+
+      <h1>Using Ternary Operator</h1>
+      <Ternary/>
     </>
   )
 }
