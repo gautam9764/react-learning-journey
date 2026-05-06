@@ -37,6 +37,8 @@ function App() {
       <h1>Props</h1>
       <h1>{apply}</h1>
       <Header name={apply}/>
+
+      {React.createElement('h1' , null , "hello how are you")}
     </>
   )
 }
