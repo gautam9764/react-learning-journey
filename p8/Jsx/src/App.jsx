@@ -2,6 +2,7 @@ import './App.css'
 import Inline from './Inline'
 import Internal from './Internal'
 import Jsx from './Jsx'
+import ShortCircuit from './ShortCircuit'
 import Ternary from './Ternary'
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
 
       <h1>Using Ternary Operator</h1>
       <Ternary/>
+
+      <h1>Short-circuit rendering</h1>
+      <ShortCircuit/>
     </>
   )
 }
