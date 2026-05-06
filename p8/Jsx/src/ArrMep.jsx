@@ -6,7 +6,7 @@ function ArrMep (){
         <>
             <>
                 {arr.map(function(item , index){
-                    return <p>{item} of {index}</p>
+                    return <p key={item}>{item} of {index}</p>
                 })}
             </>
         </>
