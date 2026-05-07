@@ -6,6 +6,7 @@ import Ternary from './Ternary'
 import ShortCircuit from './ShortCircuit'
 import ArrMep from './ArrMep'
 import Header from './Header'
+import Practice from './Practice'
 
 function App() {
 
@@ -38,7 +39,8 @@ function App() {
       <h1>{apply}</h1>
       <Header name={apply}/>
 
-      {React.createElement('h1' , null , "hello how are you")}
+      {React.createElement('h1' , null , "hello how are you Practioce form React")}
+      <Practice/>
     </>
   )
 }
