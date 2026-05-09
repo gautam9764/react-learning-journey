@@ -23,6 +23,8 @@ function Components(){
             <Square/>
             <Square></Square>
             {/* <square></square>   not a work */}
+
+            <h2>Components</h2>
         </>
     )
 }
