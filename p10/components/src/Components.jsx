@@ -22,7 +22,7 @@ function Components(){
             <h2>Helo React Pe React</h2>
             <Square/>
             <Square></Square>
-            {/* <Square></Square>   not a work */}
+            {/* <square></square>   not a work */}
         </>
     )
 }
