@@ -41,6 +41,7 @@ function Components(){
             <h2>Components</h2>
             <h2>Components Props</h2>
             <Square2/>
+            <Square2 name="gautam" age='18'/>
         </>
     )
 }
