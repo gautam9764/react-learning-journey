@@ -13,7 +13,17 @@ function Square2(){
         </>
     )
 }
-
+function Square3(para1 , para2){
+    return(
+        <>
+            <div className="square">
+                <h2>function </h2>
+                <h2>name : {para1}</h2>
+                <h2>age : {para2}</h2>
+            </div>
+        </>
+    )
+}
 function Functions(){
     return(
         <>
@@ -24,6 +34,9 @@ function Functions(){
             }
             {
                 Square2()
+            }
+            {
+                Square3("Gatuam" , 18)
             }
         </>
     )
