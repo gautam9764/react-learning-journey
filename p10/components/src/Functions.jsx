@@ -6,6 +6,14 @@ function square1(){
     )
 }
 
+function Square2(){
+    return(
+        <>
+            <div className="square"></div>
+        </>
+    )
+}
+
 function Functions(){
     return(
         <>
@@ -13,6 +21,9 @@ function Functions(){
 
             {
                 square1()
+            }
+            {
+                Square2()
             }
         </>
     )
