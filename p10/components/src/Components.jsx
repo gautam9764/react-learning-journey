@@ -16,6 +16,20 @@ function Square(){
 //     )
 // }
 
+function Square2(props){
+    console.log(props);
+    return(
+        <>
+            <div className="square">
+                <h2>Components</h2>
+                <h2>name : {props.name}</h2>
+                <h2>age : {props.age}</h2>
+            </div>
+        </>
+    )
+}
+
+
 function Components(){
     return(
         <>
@@ -25,6 +39,8 @@ function Components(){
             {/* <square></square>   not a work */}
 
             <h2>Components</h2>
+            <h2>Components Props</h2>
+            <Square2/>
         </>
     )
 }
