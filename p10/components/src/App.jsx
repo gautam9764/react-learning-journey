@@ -2,6 +2,7 @@ import './App.css'
 import Components from './Components'
 import Functions from './Functions'
 import Myclass from './Myclass'
+import Props from './Props'
 
 function App() {
 
@@ -14,6 +15,9 @@ function App() {
 
       <h1>class</h1>
       <Myclass/>
+
+      <h1>Components Props</h1>
+      <Props name="Gautam" age="18"/>
     </>
   )
 }
