@@ -4,6 +4,7 @@ import Functions from './Functions'
 import Myclass from './Myclass'
 import Props from './Props'
 import Props2 from './Props2'
+import State from './State'
 
 function App() {
 
@@ -22,6 +23,32 @@ function App() {
 
       <h1>Components Props2</h1>
       <Props2 name="Gautam" age="18"/>
+
+      <h2>Components State</h2>
+      <div style={{
+        display : 'flex',
+        justifyContent : 'center',
+        alignItems : 'center',
+        flexWrap : 'wrap',
+        gap : "1rem 1rem"
+      }}>
+        <State/>
+        <State/>
+        <State/>
+        <State/>
+        <State/>
+        <State/>
+        <State/>
+        <State/>
+        <State/>
+        <State/>
+        <State/>
+        <State/>
+        <State/>
+        <State/>
+        <State/>
+        <State/>
+      </div>
     </>
   )
 }
