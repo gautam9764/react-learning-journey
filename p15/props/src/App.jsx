@@ -1,5 +1,6 @@
 import './App.css'
 import Ifelse from './Ifelse'
+import PropsArr from './PropsArr'
 import PropsBasic from './PropsBasic'
 import PropsDestructuring from './PropsDestructuring'
 import PropsNotAllowed from './PropsNotAllowed'
@@ -28,6 +29,9 @@ function App() {
 
       <h1>Props as Object</h1>
       <PropsObj name={Obj}/>
+
+      <h1>Props as array</h1>
+      <PropsArr name={["gautam" , "18"]} />
     </>
   )
   
