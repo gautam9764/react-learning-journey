@@ -3,8 +3,14 @@ import Ifelse from './Ifelse'
 import PropsBasic from './PropsBasic'
 import PropsDestructuring from './PropsDestructuring'
 import PropsNotAllowed from './PropsNotAllowed'
+import PropsObj from './PropsObj'
 
 function App() {
+
+  const Obj = {
+    "name" : "Gautam",
+    "age" : 18
+  }
 
   return(
     <>
@@ -19,6 +25,9 @@ function App() {
 
       <h1>Basic Props (Strings, Numbers, Booleans)</h1>
       <Ifelse name={"Gautam"} age={18} isstudent={true}/>
+
+      <h1>Props as Object</h1>
+      <PropsObj name={Obj}/>
     </>
   )
   
