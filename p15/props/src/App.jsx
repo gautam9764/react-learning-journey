@@ -2,6 +2,7 @@ import './App.css'
 import Ifelse from './Ifelse'
 import PropsArr from './PropsArr'
 import PropsBasic from './PropsBasic'
+import PropsChildren from './PropsChildren'
 import PropsDestructuring from './PropsDestructuring'
 import PropsFunc from './PropsFunc'
 import PropsJsx from './PropsJsx'
@@ -50,6 +51,13 @@ function App() {
         </>
       }
       /> 
+      <h1> Props as Children (Special Prop)</h1>
+      <PropsChildren>
+        <>
+          <h1> hello </h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, illum.</p>
+        </>    
+      </PropsChildren>
     </>
   )
   
