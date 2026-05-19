@@ -3,6 +3,7 @@ import Ifelse from './Ifelse'
 import PropsArr from './PropsArr'
 import PropsBasic from './PropsBasic'
 import PropsDestructuring from './PropsDestructuring'
+import PropsFunc from './PropsFunc'
 import PropsNotAllowed from './PropsNotAllowed'
 import PropsObj from './PropsObj'
 
@@ -11,6 +12,10 @@ function App() {
   const Obj = {
     "name" : "Gautam",
     "age" : 18
+  }
+
+  function Btn(){
+    alert("Button Clicked!");
   }
 
   return(
@@ -32,6 +37,9 @@ function App() {
 
       <h1>Props as array</h1>
       <PropsArr name={["gautam" , "18"]} />
+
+      <h1>Props as Functions (Callback Functions)</h1>
+      <PropsFunc on={Btn} name={"click me !"}/>
     </>
   )
   
