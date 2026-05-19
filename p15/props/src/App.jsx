@@ -4,6 +4,7 @@ import PropsArr from './PropsArr'
 import PropsBasic from './PropsBasic'
 import PropsChildren from './PropsChildren'
 import PropsDefault from './PropsDefault'
+import PropsDefault2 from './PropsDefault2'
 import PropsDestructuring from './PropsDestructuring'
 import PropsFunc from './PropsFunc'
 import PropsJsx from './PropsJsx'
@@ -62,6 +63,9 @@ function App() {
 
       <h1>Default Props</h1>
       <PropsDefault/>
+
+      <h1>Default Props 2</h1>
+      <PropsDefault2/>
     </>
   )
   
