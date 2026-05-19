@@ -3,6 +3,7 @@ import Ifelse from './Ifelse'
 import PropsArr from './PropsArr'
 import PropsBasic from './PropsBasic'
 import PropsChildren from './PropsChildren'
+import PropsDefault from './PropsDefault'
 import PropsDestructuring from './PropsDestructuring'
 import PropsFunc from './PropsFunc'
 import PropsJsx from './PropsJsx'
@@ -58,6 +59,9 @@ function App() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, illum.</p>
         </>    
       </PropsChildren>
+
+      <h1>Default Props</h1>
+      <PropsDefault/>
     </>
   )
   
