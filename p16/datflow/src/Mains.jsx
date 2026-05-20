@@ -4,7 +4,7 @@ import About from './About'
 
 const Mains = () => {
   return (
-    <div >
+    <div className='bg-gray-400 p-8'>
       <h1>main</h1>
       <Hero/>
       <About/>
