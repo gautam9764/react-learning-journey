@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Header = () => {
+const Header = (Props) => {
   return (
-    <div>
-      <h1 className='bg-red-700'>Header</h1>
+    <div  className='bg-red-700'>
+      <h1>Header</h1>
+      <h1> {Props.name}</h1>
     </div>
   )
 }
