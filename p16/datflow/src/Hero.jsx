@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Hero = () => {
+const Hero = (Props) => {
   return (
-    <div>
-      <h1 className='bg-red-600'>Hero</h1>
+    <div  className='bg-red-600'>
+      <h1>Hero</h1>
+      <h1>{Props.name}</h1>
     </div>
   )
 }

@@ -7,8 +7,8 @@ const Mains = (Props) => {
     <div className='bg-gray-400 p-8'>
       <h1>main</h1>
       <h1>{Props.name}</h1>
-      <Hero/>
-      <About/>
+      <Hero  name={Props.name}/>
+      <About name={Props.name}/>
     </div>
   )
 }
