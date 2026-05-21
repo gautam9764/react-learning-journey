@@ -6,12 +6,16 @@ import Mains from './Mains'
 
 function App() {
 
-  const [data , useData] = useState("Gautam");
+  const [data , setData] = useState("Gautam");
+
+  function sum (value){
+    setData(value);
+  }
 
  return(
   <>
     <Header name={data}/>
-    <Mains name={data}/>
+    <Mains name={data} func={sum}/>
     <Footer name={data}/>
   </>
  )
